@@ -64,6 +64,7 @@
         & > a{
           color: $brandColor;
           font-weight: 600;
+          font-size: 0.7rem !important;
         }
       }
     }
@@ -72,6 +73,7 @@
       a,button{
         color: $brandColor;
         font-weight: 600;
+        font-size: 0.7rem;
       }
     }
   }
