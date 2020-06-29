@@ -2,7 +2,7 @@
   "name": "businex-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://imcyc.github.io/pagina",
+  "homepage": "https://paginaimcyc.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
