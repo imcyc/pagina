@@ -4,7 +4,7 @@
 
 .header-area{
   background-color: $brandColor;
-  padding: 30px 0;
+  padding: 10px 0;
   transition: 0.4s;
 
   &.sticky{
@@ -81,6 +81,11 @@
 .header-action{
   color: $white;
   font-size: 22px;
+  margin-top: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
   @media #{$lg-device, $sm-device} {
     font-size: 20px;
@@ -88,6 +93,8 @@
 
   a{
     color: $white;
+    font-size: 0.7rem;
+    margin: 5px;
 
     &.tel-no{
       @media #{$xs-device} {
@@ -101,3 +108,8 @@
     margin-left: 20px;
   }
 }
+
+.navigation-area.mt-lg-3 {
+  padding: 0;
+  margin: 0 !important;
+} 
