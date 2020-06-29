@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 
 import Header from '../components/Header'
 import Slider from '../components/Slider/home-one'
@@ -18,20 +18,20 @@ import MobileMenu from "../components/MobileMenu";
 const HomeOne = () => {
     return (
         <Fragment>
-            <Header/>
-            <Slider/>
-            <About/>
-            <Features classes="sp-top"/>
-            <Services classes="sm-top-wt"/>
-            <Testimonials/>
-            <Team/>
-            <Blog/>
-            <BrandLogo/>
-            <Funfact/>
-            <CallToAction/>
-            <Footer/>
-            <MobileMenu/>
-            <LoginRegister/>
+            <Header />
+            <Slider />
+            <Services />
+            <About />
+            <Features classes="sp-top" />
+            <Testimonials />
+            <Team />
+            <Blog />
+            <BrandLogo />
+            <Funfact />
+            <CallToAction />
+            <Footer />
+            <MobileMenu />
+            <LoginRegister />
         </Fragment>
     );
 };
